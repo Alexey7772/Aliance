@@ -30,6 +30,7 @@
 .navbar-light {
   background-color: #fff;
   color: #292d33;
+  height: 72px;
   }
 .navbar-light .header-logo-path {
   fill: #292d33;
@@ -95,8 +96,8 @@
   border: none;
   display: inline-block;
   cursor: pointer;
- }
- .button-1 {
+}
+.button-1 {
   font-weight: 600;
   font-size: 16px;
   line-height: 160%;
@@ -107,8 +108,7 @@
   display: inline-block;
   cursor: pointer;
   margin-bottom: 100px;
- }
-
+}
 .navbar-button {
   flex-shrink: 0;
   height: 100%;
@@ -230,3 +230,4 @@ color: #5C8EE6;
   width: 40px;
   margin-right: 20px;
 }
+
