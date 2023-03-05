@@ -15,11 +15,13 @@ const menu = document.querySelector(".mobile-menu");
 
    const openMenu = (event) => { // функция открывания меню
    menu.classList.add("is-open"); // вешает класс is-open
+   mMenutoogle.classList.add("close-menu");
    document.body.style.overflow ="hidden";// запрещаем прокрутку сайта под меню
    lightModeOn ();
 };
    const closeMenu = (event) => { // функция закрывания меню
    menu.classList.remove("is-open"); // убирает класс is-open
+   mMenutoogle.classList.remove("close-menu");
    document.body.style.overflow ="";// возвращает прокрутку сайта под меню
    lightModeOff();
 };
