@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Aliance production</title>
@@ -27,16 +28,20 @@
               <a class="mobile-submenu-link" href="#">Автомобильная химия</a>
             </li>
             <li class="mobile-submenu-item">
-              <a  class="mobile-submenu-link" href="#">Бытовая химия</a>
+              <a class="mobile-submenu-link" href="#">Бытовая химия</a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Дезинфицирующие средства</a>
+              <a class="mobile-submenu-link" href="#"
+                >Дезинфицирующие средства</a
+              >
             </li>
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="#">Пищевые аэрозоли</a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Косметическая продукция</a>
+              <a class="mobile-submenu-link" href="#"
+                >Косметическая продукция</a
+              >
             </li>
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="#">Краски аэрозольные</a>
@@ -44,9 +49,7 @@
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">
-            Собственные торговые марки
-          </a>
+          <a href="#" class="mobile-menu-link"> Собственные торговые марки </a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="#">Автохимия AG-Tech</a>
@@ -63,23 +66,23 @@
           <a href="#" class="mobile-menu-link">Контакты</a>
         </li>
       </ul>
-      <a href="tel:+74996861014"class="mobile-phone">+7 (499) 686-10-14</a>
+      <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
       <div class="mobile-info">
-          <svg class="phone-icon" width="24" height="24">
-            <use href="img/sprite-3.svg#mark"></use>
-          </svg>
-          <address class="mobile-info-address">
-            г. Мосвка, Холодильный пер. 4к1с8
-          </address>
+        <svg class="phone-icon" width="24" height="24">
+          <use href="img/sprite-3.svg#mark"></use>
+        </svg>
+        <address class="mobile-info-address">
+          г. Мосвка, Холодильный пер. 4к1с8
+        </address>
       </div>
       <!-- mobile-info -->
       <div class="mobile-info">
         <svg class="phone-icon" width="24" height="24">
-            <use href="img/sprite-3.svg#mail"></use>
-          </svg>
-          <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-email">
-            a.dragunov@tdaliance.ru
-          </a>
+          <use href="img/sprite-3.svg#mail"></use>
+        </svg>
+        <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-email">
+          a.dragunov@tdaliance.ru
+        </a>
       </div>
       <div class="icons-vk-inst">
         <svg class="phone-icon" width="24" height="24">
@@ -152,20 +155,71 @@
           <div class="button-1">Подробнее о компании</div>
         </div>
         <!-- header content -->
+
+        <!-- основной блок слайдера -->
+        <div class="swiper">
+          <!-- обертка слайдера -->
+          <ul class="swiper-wrapper header-features">
+            <!-- слайды -->
+            <li class="swiper-slide header-features-item">
+              <svg class="logo-svg" width="36" height="36">
+                <use href="img/sprite-2.svg#time"></use>
+              </svg>
+              <p class="header-features">Непрерывная работа c 2017 года</p>
+            </li>
+            <li class="swiper-slide header-features-item">
+              <svg width="36" height="36">
+                <use href="img/sprite-2.svg#certificate"></use>
+              </svg>
+              <p class="header-features">Вся продукция сертифицирована</p>
+            </li>
+            <li class="swiper-slide header-features-item">
+              <svg width="36" height="36">
+                <use href="img/sprite-2.svg#control"></use>
+              </svg>
+              <p class="header-features">Контроль качества на всех этапах</p>
+            </li>
+            <li class="swiper-slide header-features-item">
+              <svg width="36" height="36">
+                <use href="img/sprite-2.svg#delivery"></use>
+              </svg>
+              <p class="header-features">Возможны поставки по всей России</p>
+            </li>
+            <li class="swiper-slide header-features-item">
+              <svg width="36" height="36">
+                <use href="img/sprite-2.svg#speed"></use>
+              </svg>
+              <p class="header-features">Оперативное производство</p>
+            </li>
+          </ul>
+          <!-- кнопки навигации вперед/назад -->
+          <div class="slider-buttons">
+            <div class="slider-button-prev">
+              <svg width="36" height="24">
+                <use href="img/sprite.svg#arrow-prev"></use>
+              </svg>
+            </div>
+            <div class="slider-button-next">
+              <svg width="36" height="24">
+                <use href="img/sprite.svg#arrow-next"></use>
+              </svg>
+            </div>
+          </div>
+          <!-- slider-buttons -->
+        </div>
+
         <ul class="header-features">
           <li class="header-features-item">
             <svg class="logo-svg" width="36" height="36">
               <use href="img/sprite-2.svg#time"></use>
             </svg>
             <p class="header-features">Непрерывная работа c 2017 года</p>
-            <text></text>
           </li>
           <li class="header-features-item">
             <svg class="logo-svg" width="36" height="36">
               <use href="img/sprite-2.svg#certificate"></use>
             </svg>
             <p class="header-features">Вся продукция сертифицирована</p>
-            <text></text>
           </li>
           <li class="header-features-item">
             <svg class="logo-svg" width="36" height="36">
@@ -235,7 +289,7 @@
       <!-- container -->
     </section>
     <!-- header content -->
-
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
