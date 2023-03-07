@@ -165,7 +165,7 @@ display: none;
   margin-bottom: 3.125rem;
 }
 .header-features {
-  display:flex;
+  display: flex;
   padding: 0;
   list-style: none;
   color: #fff;
@@ -177,9 +177,11 @@ display: none;
 }
 .slider-button-prev, 
 .slider-button-next {
-height: 100%;
-flex-basis: 50%;
-border: 1px solid rgba(235, 235, 240, 0.2);
+  height: 100%;
+  flex-basis: 50%;
+  border: 1px solid rgba(235, 235, 240, 0.2);
+  display: flex;
+  align-items: center;
 }
 .header-features-item {
   padding: 1.875rem 3.125rem;
