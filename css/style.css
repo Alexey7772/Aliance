@@ -41,6 +41,9 @@ html{
   .phone-icon {
     fill: #5C8EE6;
   }
+  .logo {
+    display: none;
+  }
   .logo-svg {
     width: 8.75rem; 
     height: 2.75rem;
@@ -131,7 +134,8 @@ html{
   flex-shrink: 0;
   height: 100%;
 }
-.navbar-button .button-icon {
+.navbar-button 
+.button-icon {
 display: none;
 }
 .header-button {
