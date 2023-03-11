@@ -37,7 +37,7 @@ mMenutoogle.addEventListener("click", (event) => {
   menu.classList.contains("is-open") ? closeMenu() : openMenu();
 });
 
-const SwiperSteps = new Swiper(".features-slider", {
+const swiperSteps = new Swiper(".features-slider", {
   speed: 400,
   slidesPerView: 4,
   navigation: {
@@ -57,12 +57,16 @@ const SwiperSteps = new Swiper(".features-slider", {
     1024: {
       slidesPerView: 4,
     },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 5,
+    },
   },
 });
 
 const swiper = new Swiper(".swiper", {
   speed: 400,
-  slidesPerView: 1,
+  slidesPerView: 2,
   autoHeight: true,
   loop: true,
   navigation: {
