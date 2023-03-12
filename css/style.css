@@ -329,6 +329,7 @@ cursor: pointer;
   }
   .steps-buttons {
     display: none;
+    display: flex;
   }
 .header-phone {
   display: none;
@@ -339,9 +340,6 @@ cursor: pointer;
 .navbar-button {
   padding-left: 2rem;
   padding-right: 2rem;
-  }
-.steps-buttons {
-  display: flex;
   }
 .slider-buttons {
   display: flex;
