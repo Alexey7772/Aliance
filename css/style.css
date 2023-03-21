@@ -448,8 +448,8 @@ flex-wrap: wrap;
 }
 .clients-logo-list {
   flex-shrink: 10;
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .clients-logo-item {
 flex-basis: 33%;
@@ -458,11 +458,15 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding: 1rem;
+filter: grayscale(100%);
+transition: filter 0.2s;
+}
+.clients-logo-item:hover {
+filter: grayscale(0);
 }
 .clients-logo {
-  
-  width: 70px;
-  height: 70px;
+width: 70px;
+height: 70px;
 }
 @media(max-width: 1720px) {
 .steps-buttons {
