@@ -520,6 +520,27 @@ z-index: -2;
   margin-top: 1.875rem;
   justify-content: space-between;
 }
+.bg-grey {
+  background: #F0F2F5;
+  }
+.section-cta {
+  position: relative;
+  padding-top: 6.25rem;
+}
+.сta-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 45rem;
+  width: 50%;
+}
+.cta-from-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.cta-form {
+  max-width: 52.5rem;
+}
 @media(max-width: 1720px) {
 .steps-buttons {
     display: none;
