@@ -539,7 +539,7 @@ z-index: -2;
   justify-content: flex-end;
 }
 .cta-form {
-  max-width: 52.5rem;
+  max-width: 51.25rem;
 }
 @media(max-width: 1720px) {
 .steps-buttons {
